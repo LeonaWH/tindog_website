@@ -1,0 +1,136 @@
+#title{
+  background-color: #ff4c68;
+
+}
+#features{
+  text-align: center;
+  padding: 50px 60px;
+  color: #8f8f8f;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-top: 5%;
+}
+#footer{
+  background-color: white;
+  padding: 3% 4%;
+  text-align: center;
+}
+nav{
+  position: fixed;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;}
+.carousel-item{
+  padding: 10% 18%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+
+}
+h1{
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+}
+h2{
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h3{
+  color: black;
+  font-weight: 700;
+}
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+
+}
+.container-fluid{
+  padding: 3% 10% 5%;
+}
+
+.col{
+  padding: 30px;
+}
+.f{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  font-size: 1.5rem;
+}
+.fa-solid{
+  color:#ef8172;
+  padding: 30px;
+}
+.first-img{
+  transform: rotate(20deg);
+  width:250px;
+  position: absolute;
+  z-index:1;
+  left: 55%;
+}
+@media (max-width:800px){
+  .first-img{
+    position:static;
+    transform: none;
+  }
+  h1{
+    text-align: none;
+  }
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding:0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+.downloadbtn{
+  margin: 5% 3% 5% 0;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-img{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+#pricing{
+  padding: 3% 2%;
+}
+.ficon{
+  padding:10px;
+}
